@@ -12,11 +12,7 @@ const options = {
                 name: 'Samrat'
             }
         },
-        servers: [
-            {
-                url: 'http://localhost:5001' // Adjust the URL as per your setup
-            }
-        ],
+        servers: ['http://localhost:5001',"https://transition-computing-backend-assignment.onrender.com"],
         securitySchemes: {
             bearerAuth: { // Define the security scheme for JWT authentication
                 type: 'apiKey',
